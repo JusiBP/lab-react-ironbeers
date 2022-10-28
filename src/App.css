@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.home {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.titleHome {
+  margin-top: 15px;
+}
+
+.imgHome{
+  padding-top: 18px;
+  width: 65vw;
+  border-radius: 15px;
+}
+
+.divHome {
+  margin-top: 25px;
+  border: solid rgba(0, 0, 0, 0.106);
+  border-radius: 15px;
+}
+
+.cardImage{
+  object-fit: contain;
+  height: 30vh;
+}
+
+.divAllB {
+  margin: auto
+}
+
+.cardStyle {
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
