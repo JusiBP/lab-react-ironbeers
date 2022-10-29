@@ -8,7 +8,7 @@ function BeerCard({beer}){
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>
                 <p className="card-text">{tagline}</p>
-                <Link to={"/"+{_id}} className="btn btn-primary">Know more</Link>
+                <Link to={"/"+_id} className="btn btn-primary">Know more</Link>
             </div>
         </div>
     );

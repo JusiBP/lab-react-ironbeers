@@ -11,7 +11,6 @@ function AllBeers(){
     useEffect(()=>{
         beerServ.getBeers()
         .then (result =>{
-            // console.log(result)
             setBeers(result.data)
         })
     },[])

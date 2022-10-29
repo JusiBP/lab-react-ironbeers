@@ -6,7 +6,16 @@ class BeerService {
     getBeers(){
         return axios.get(apiUrl); 
      }
+
+    getBeer(idBeer){
+        return axios.get(apiUrl + "/" + idBeer)
+    }
+
+    randomBeer(){
+        return axios.get(apiUrl + "/random")
+    }
  }
+
  
  const beerServ = new BeerService();
  
